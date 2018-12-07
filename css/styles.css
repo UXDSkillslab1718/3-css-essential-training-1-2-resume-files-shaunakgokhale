@@ -5,17 +5,58 @@
 #BC2C1A - orange red
 #136F63 - dark turquiouse
 */
+/* Fonts
+-------------------------------*/
+@font-face {
+    font-family: SF-Pro-Display-Bold;
+    src: url(../fonts/SF-Pro-Display-Bold.otf);
+}
+
+@font-face {
+    font-family: SF-Pro-Display-Regular;
+    src: url(../fonts/SF-Pro-Display-Regular.otf);
+}
+
+@font-face {
+    font-family: SF-Pro-Display-Ultralight;
+    src: url(../fonts/SF-Pro-Display-Ultralight.otf);
+}
 
 /* Global Styles
 -------------------------------*/
 body {
+font-family: SF-Pro-Display-Regular, Arial, Helvetica, sans-serif;
 
+}
+h1, h2 {
+    font-family: 'Zilla Slab', serif;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 30px;
+    text-decoration: overline;
+}
+h3 {
+    font-family: SF-Pro-Display-Bold, Arial, Helvetica, sans-serif;
 }
 a {
     color: #BC2C1A;
 }
 a:hover {
     text-decoration: none;
+}
+p {
+    
+    line-height: 150%;
+}
+.details p {
+    margin: 0px;
+    font-weight: 100;
+}
+.details h3 {
+    margin: 0px;
 }
 
 
