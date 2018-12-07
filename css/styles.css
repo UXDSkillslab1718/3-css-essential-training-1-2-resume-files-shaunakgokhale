@@ -1,3 +1,42 @@
+/* Colour Palette
+#A1CACF - light blue
+#0A0908 - black
+#0D1B2A - dark blue
+#BC2C1A - orange red
+#136F63 - dark turquiouse
+*/
+
+/* Global Styles
+-------------------------------*/
 body {
-    background: lightblue;
+
+}
+a {
+    color: #BC2C1A;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Header and Footer
+-------------------------------*/
+header, footer {
+    background: #0D1B2A;
+    color: #A1CACF;
+}
+header h1, header h2 {
+    color: #BC2C1A;
+}
+
+/* Work Experience
+-------------------------------*/
+.work {
+    background: #A1CACF;
+}
+
+/* Education
+-------------------------------*/
+.education {
+    background: #136F63;
 }
