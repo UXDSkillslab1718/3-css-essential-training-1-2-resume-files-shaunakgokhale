@@ -80,6 +80,13 @@ p {
 .uppercase {
     text-transform: uppercase;
 }
+.btn {
+    text-decoration: none;
+    background: #BC2C1A;
+    color: #C4DEE1;
+    padding: 10px;
+    display: inline-block;
+}
 
 /* Header and Footer
 -------------------------------*/
@@ -88,12 +95,21 @@ header, footer {
     color: #C4DEE1;
 }
 /* header */
+header {
+    padding-top: 30px;
+    position: relative;
+}
 header h1, header h2 {
     color: #BC2C1A;
    margin: 0;
 }
 .profile-img {
     border-radius: 50%;
+}
+.download {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 /*footer*/
 footer {
@@ -102,6 +118,24 @@ footer {
 .contact-info a {
     padding: 10px;
     display: inline-block;
+}
+/* Navigation
+-------------------------------*/
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    background: white;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: SF-Pro-Display-Bold, Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 /* Work Experience
 -------------------------------*/
