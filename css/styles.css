@@ -119,6 +119,9 @@ footer {
     padding: 10px;
     display: inline-block;
 }
+.contact-info i {
+    font-size: 30px;
+}
 /* Navigation
 -------------------------------*/
 nav {
@@ -140,7 +143,7 @@ nav a {
 /* Work Experience
 -------------------------------*/
 .work {
-    background: #C4DEE1;
+    background: #DAFAFF;
 }
 h3 ~ p {
     margin: 0;
@@ -155,7 +158,11 @@ h3 ~ p {
 /* Education
 -------------------------------*/
 .education {
-    background: #7FB7BE;
+    background: linear-gradient(45deg,rgba(218, 250, 255, 1),
+                    rgba(36, 228, 255, 0.9)),
+                    url("../images/books.jpg") no-repeat fixed;
+    
+    background-size: cover;
 }
 p + h3 {
     margin-top:20px;
