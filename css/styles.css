@@ -48,6 +48,7 @@ h2 {
 }
 h3 {
     font-family: SF-Pro-Display-Bold, Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 a {
     color: #BC2C1A;
@@ -69,12 +70,15 @@ p {
     width: 75%;
     float: left;
     padding-left: 20px;
-    min-height: 180px;
+   
 }
 .col-narrow {
     width: 25%;
     float: left;
-    min-height: 180px;
+   
+}
+.uppercase {
+    text-transform: uppercase;
 }
 
 /* Header and Footer
@@ -104,9 +108,21 @@ footer {
 .work {
     background: #C4DEE1;
 }
+h3 ~ p {
+    margin: 0;
+}
+.job-desc {
+    margin-bottom: 40px;
+}
+.job-desc p:first-of-type {
+    margin-top: 0;
+}
 
 /* Education
 -------------------------------*/
 .education {
     background: #7FB7BE;
+}
+p + h3 {
+    margin-top:20px;
 }
