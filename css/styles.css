@@ -66,17 +66,6 @@ p {
     padding: 50px;
     overflow: auto;
 }
-.col-wide {
-    width: 75%;
-    float: left;
-    padding-left: 20px;
-   
-}
-.col-narrow {
-    width: 25%;
-    float: left;
-   
-}
 .uppercase {
     text-transform: uppercase;
 }
@@ -130,6 +119,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 nav a {
     background: white;
@@ -166,4 +156,39 @@ h3 ~ p {
 }
 p + h3 {
     margin-top:20px;
+}
+
+/* Media Queries
+-------------------------------*/
+@media (min-width: 800px) {
+    .col-wide {
+        width: 75%;
+        float: left;
+        padding-left: 20px;
+       
+    }
+    .col-narrow {
+        width: 25%;
+        float: left;
+       
+    }
+
+}
+
+@media (max-width: 799px) {
+    header {
+        text-align: center;
+    }
+    .profile-img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    nav {
+        display: none;
+    }
+    header {
+        padding-top: 0;
+    }
 }
